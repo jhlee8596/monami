@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+footer {
+  background: #111;
+  padding: 60px 0 65px;
+}
+.footer-top {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-top .footer-info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+.footer-top .footer-info li a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+.footer-top .footer-info li:nth-child(2) a {
+  color: #fff;
+}
+
+.footer-bottom {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 30px;
+  /* justify-content: space-between; */
+}
+.footer-bottom address {
+  /* padding-top: 20px; */
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 300;
+  margin-right: 80px;
+}
+.footer-bottom address h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer-bottom address p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 300;
+}
+.footer-bottom address p span {
+  display: inline-block;
+  padding: 0 10px;
+  margin-bottom: 3px;
+}
+.footer-bottom .cc {
+  margin-right: 360px;
+}
+.footer-bottom .cc .tit {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer-bottom .cc .cc_tel {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-bottom .cc .btn_kakao {
+  display: inline-block;
+  width: 155px;
+  height: 32px;
+  line-height: 31px;
+  margin-top: 15px;
+  color: #dfdfdf;
+  text-align: center;
+  border: 1px solid #878787;
+  background: #4a4a4a;
+  border-radius: 6px;
+}
+.footer-bottom .family-site {
+  position: relative;
+  width: 242px;
+  height: 34px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+.footer-bottom .family-site select {
+  display: block;
+  padding: 0 13px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 13px;
+  background-color: transparent;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.4);
+  position: relative;
+  border: none;
+  outline: none;
+}
